@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(lavanda.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: rgb(218,227,155); */
+    color: white;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+.perfil{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.perfil h1{
+    font-family: brandon-grot-w01-light,sans-serif;
+    font-weight: 700;
+}
+
+.perfil h5{
+    margin-top: 10px;
+}
+
+.avatar{
+    border-radius: 100%;
+    width: 100px;
+    border: 3px solid white;
+    margin-bottom: 20px;
+}
+
+.bandeiras{
+    width: 30px;
+    margin-top: 20px;
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 200;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.social img{
+    width: 33px;
+}
+
+.links-list li{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style: none;
+}
+
+.links-list li a{
+    text-decoration: none;
+    display: block;
+    background: rgb(218,227,155);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 3px solid white;
+    color: white;
+}
+
+.links-list li a:hover{
+    background-color: white;
+    color: rgb(218,227,155);
+}
+
+.links-list li a span{
+    display: block;
+    margin-top: 10px;
+}
+
+footer{
+    background-color:#FBAD17;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
